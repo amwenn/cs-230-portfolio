@@ -1,41 +1,13 @@
-CS 230 Software Design Portfolio
+CS 230 Portfolio Reflection
 
-This repository contains portfolio artifacts from CS 230: Operating Platforms at Southern New Hampshire University. The course focused on analyzing operating platforms, system architectures, memory and storage management, distributed systems, and security considerations for modern software applications.
+The client for this project was The Gaming Room, a company that wanted to expand their existing Android game, Draw It or Lose It, into a scalable, web-based application that could support multiple platforms and thousands of concurrent users. The goal was to design a system architecture that would allow the game to run reliably across different operating systems while maintaining performance, security, and a consistent user experience. The software needed to support browser-based clients, centralized game logic, and secure communication between distributed users.
 
-The primary project in this repository is based on the client scenario The Gaming Room and their web-based game application Draw It or Lose It. The work demonstrates how system architecture decisions support scalability, performance, security, and cross-platform compatibility.
+One area I performed particularly well in was analyzing and comparing operating platforms to determine the most appropriate server environment. I was able to evaluate Linux, Windows, macOS, and mobile platforms based on scalability, cost, security, and licensing considerations, and clearly justify the recommendation of a Linux-based server solution. I also communicated architectural decisions in a way that would be understandable to both technical and nontechnical stakeholders.
 
-Project Highlights
+Working through the design document was helpful because it forced me to think through system decisions before implementation. By defining requirements, constraints, memory management, storage solutions, and distributed communication early in the process, I gained a better understanding of how different system components interact. This structured approach would reduce rework and errors during development because major design decisions are already validated.
 
-Evaluation of operating platforms including Linux, Windows, macOS, and mobile environments
+If I could revise one part of the document, I would expand the system architecture view to include a visual diagram of the client-server interaction. Adding a diagram would improve clarity by showing how clients communicate with the backend server, how data flows through the system, and where security controls are applied.
 
-Recommendation of a Linux-based server platform for scalable web deployment
+User needs were interpreted by focusing on accessibility, performance, and security. The client required a solution that allowed users on different devices to participate without installing platform-specific software, which led to the decision to use browser-based clients. Considering user needs is critical in software design because usability, reliability, and trust directly impact whether an application is successful and widely adopted.
 
-Analysis of operating system architectures and their impact on application performance
-
-Discussion of memory and storage management techniques
-
-Design considerations for distributed systems and network communication
-
-Security strategies for protecting user data across platforms
-
-Technologies and Concepts
-
-Linux server environments
-
-Web-based client server architecture
-
-RESTful APIs
-
-Virtual memory and storage management
-
-Cloud hosting and scalability
-
-Secure communication using HTTPS
-
-Purpose of This Repository
-
-This repository serves as a professional academic portfolio to demonstrate system design knowledge and architectural decision-making skills developed during CS 230. Artifacts may be updated or expanded as additional coursework is completed. 
-
-Student: Ambren Cavazos  
-Course: CS 230 Operating Platforms  
-Institution: Southern New Hampshire University
+My approach to designing software involved breaking down the problem into smaller components, evaluating constraints, and selecting technologies that align with long-term scalability and maintainability. In the future, I would continue using structured design documents, platform evaluation matrices, and iterative refinement to analyze and design similar applications. These techniques help ensure that software solutions are well planned, user focused, and technically sound.
